@@ -1,0 +1,28 @@
+{
+  "name": "linkedinscrapper",
+  "version": "1.0.0",
+  "description": "LinkedIn Profile Scraper with Advanced Filtering",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linkedin",
+    "scraper",
+    "profiles",
+    "filtering"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "puppeteer": "^24.8.0",
+    "python-shell": "^5.0.0"
+  }
+}
